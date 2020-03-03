@@ -10,4 +10,5 @@ old["list"][num-1].append(data)
 json_str=json.dumps(old,ensure_ascii=False)
 with open("E:/workspace/mygithubio/liboqiao1234.github.io/task-sort/data.json","w",encoding="utf-8") as file_obj:
     file_obj.write(json_str)
+file_obj.close();
 os.system("E:/workspace/mygithubio/liboqiao1234.github.io/task-sort/update.bat")
