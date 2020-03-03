@@ -17,4 +17,7 @@
           2.排序
           3.浏览器缓存
           4.多端存储
-          5.或许还有加密    
+          5.或许还有加密
+
+          user:name list_num
+          list:0-list_num
